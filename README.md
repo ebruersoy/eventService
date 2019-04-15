@@ -22,16 +22,11 @@ cd docker/local
 After that, from maven the project must be started as
 
 ```shell
-mvn spring-boot:run -Dspring.profiles.active=test
+mvn spring-boot:run -Dspring.profiles.active=local
 ```
 
 # Opening Swagger
 
-After running the project, swagger link is: [localhost:8019/swagger-ui.html](localhost:8019/swagger-ui.html)
+After running the project, swagger link is: [localhost:8010/swagger-ui.html](localhost:8010/swagger-ui.html)
 
-# Basic Authentication
 
-For calling the services, username and password must be entered as
-
-* user: admin
-* password: RoadHouse2019
