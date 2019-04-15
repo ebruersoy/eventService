@@ -94,6 +94,11 @@
             <artifactId>hibernate-types-52</artifactId>
             <version>2.3.5</version>
         </dependency>
+        <dependency>
+            <groupId>com.vladmihalcea</groupId>
+            <artifactId>hibernate-types-52</artifactId>
+            <version>2.3.5</version>
+        </dependency>
     </dependencies>
 	<build>
 		<plugins>
