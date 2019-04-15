@@ -10,4 +10,8 @@ For building and running the application you need:
 
 # Running the application locally
 
-- mvn spring-boot:run -Dspring.profiles.active=local
+- From terminal, the docker image must be run as
+  cd docker/local
+  docker-compose up -d
+- After that, from maven the project must be started as
+  mvn spring-boot:run -Dspring.profiles.active=local
