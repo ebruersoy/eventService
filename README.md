@@ -1,5 +1,5 @@
 # Event Service
-Kafka Events of Employee Service
+Kafka Events of Employee Service. This project must be running before Employee Service.
 
 ## Requirements
 
